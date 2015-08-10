@@ -1,7 +1,7 @@
 import os, subprocess
 
 SIZE = 512
-KERNEL_SIZES = [3, 5, 7, 9, 11, 13, 15]
+KERNEL_SIZES = [3, 5, 7, 9, 11, 13, 15, 17]
 INPUT_DIR = 'examples/inputs'
 OUTPUT_DIR = 'examples/outputs'
 
