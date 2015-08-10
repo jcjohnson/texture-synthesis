@@ -19,5 +19,5 @@ Texture synthesis is implemented in the script `synthesis.lua`. The following co
 * `-k`: Kernel size; must be an odd integer.
 * `-gpu`: Which GPU to use. Setting `gpu >= 0` will run in GPU mode, and setting `gpu < 0` will run in CPU-only mode.
 
-# Works Cited:
+## Works Cited:
 [1] Efros, Alexei, and Thomas K. Leung. "Texture synthesis by non-parametric sampling." ICCV 1999.
