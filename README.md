@@ -10,6 +10,8 @@ Given an input texture patch, the algorithm generates a larger version of the sa
 ### Output
 <img src="https://github.com/jcjohnson/texture-synthesis/blob/master/examples/outputs/scales_512_k13.png?raw=true">
 
+You can see more examples [in the example gallery](examples.md).
+
 ## Usage
 Texture synthesis is implemented in the script `synthesis.lua`. The following command line options are available:
 * `-source`: Path to the source image.
@@ -18,6 +20,8 @@ Texture synthesis is implemented in the script `synthesis.lua`. The following co
 * `-width`: Width of the output file, in pixels.
 * `-k`: Kernel size; must be an odd integer.
 * `-gpu`: Which GPU to use. Setting `gpu >= 0` will run in GPU mode, and setting `gpu < 0` will run in CPU-only mode.
+
+You can see examples using different source images and kernel sizes [in the example gallery](examples.md).
 
 ## Works Cited:
 [1] Efros, Alexei, and Thomas K. Leung. "Texture synthesis by non-parametric sampling." ICCV 1999.
